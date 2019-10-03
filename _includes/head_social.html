@@ -1,0 +1,20 @@
+{% assign speakers = site.data.speakers | where: "name", page.speaker %}
+{% assign speaker = speakers[0] %}
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="{{ speaker.name }}'s page - DevRelCon Tokyo 2019">
+<meta property="og:site_name" content="DevRelCon Tokyo 2019 – conference for developer relations, developer marketing, developer experience, APIs">
+<meta property="og:image" content="https://tokyo-2019.devrel.net/img/social-banners/{{speaker.key}}.jpg">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta property="og:url" content="https://tokyo-2019.devrel.net/speakers/{{speaker.key}}">
+<meta property="fb:app_id" content="424738881282189">
+<meta property="fb:pages" content="1266887696723264" />
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@devrelcontokyo">
+<meta name="twitter:creator" content="@devrelcontokyo">
+<meta name="twitter:title" content="{{ speaker.name }}'s page - DevRelCon Tokyo 2019">
+<meta name="twitter:description" content="A one day conference for technical evangelists, developer advocates and anyone interested in developer relations and developer experience">
+<meta name="twitter:image" content="https://tokyo-2019.devrel.net/img/social-banners/{{speaker.key}}.jpg">

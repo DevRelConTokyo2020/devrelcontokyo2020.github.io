@@ -1,0 +1,34 @@
+<div id="organizers"></div>
+<div class="title-block  grey-bg">
+  <h1 class="lang en bold red">Organizers</h1>
+  <h1 class="lang ja bold red">主催者</h1>
+  <p class="lang en">We are organisers of DevRelCon Tokyo 2020.</p>
+  <p class="lang en">私たちがDevRelCon Tokyo 2020の主催者です。</p>
+</div>
+
+<div class="speaker-wrapper  grey-bg">
+  <div class="container">
+    <div class="row d-flex">
+      {% assign organizers = site.data.organizers | where: "type", "member" %}
+      {% for organizer in organizers %}
+        <div class="col-md-3 col-lg-4 col-xl-3">
+          <div class="speaker-card">
+            <img src="/assets/img/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_en }}">
+            <div class="speaker-details">
+              <h3 class="light red mb-4">
+                <span class="lang en">{{ organizer.name_en }}</span>
+                <span class="lang ja">{{ organizer.name_ja }}</span>
+              </h3>
+              <p class="photo-credit">
+                <span class="lang en">{{ organizer.title_en }}&nbsp;</span>
+                <span class="lang ja">{{ organizer.title_en }}&nbsp;</span>
+              </p>
+              <p class="lang en bold photo-credit">{{ organizer.company_en }}</p>
+              <p class="lang ja bold photo-credit">{{ organizer.company_ja }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

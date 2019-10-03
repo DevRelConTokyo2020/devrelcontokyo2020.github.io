@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div id="home"></div> <!-- Top of the page anchor (from main nav) -->
+
+  {% include nav.html %}
+    
+  {{ content }}
+    
+    {% include footer.html %}
+
+    {% include script.html %}
+  </body>
+</html>

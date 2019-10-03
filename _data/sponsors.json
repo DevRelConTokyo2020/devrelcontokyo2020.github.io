@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ibm",
+    "type": "Gold",
+    "name_ja": "IBM",
+    "name_en": "IBM",
+    "url_ja": "http://www-07.ibm.com/ibm/jp/bluehub/",
+    "url_en": "http://www-07.ibm.com/ibm/jp/bluehub/",
+    "size": "6",
+    "show": "true"
+  },
+  {
+    "id": "yahoo",
+    "type": "Venue",
+    "name_ja": "Yahoo! JAPAN",
+    "name_en": "Yahoo! JAPAN",
+    "url_ja": "https://www.yahoo.co.jp",
+    "url_en": "https://www.yahoo.co.jp",
+    "size": "6",
+    "show": "false"
+  },
+  {
+    "id": "val",
+    "type": "Strap",
+    "name_ja": "ヴァル研究所",
+    "name_en": "Ekispert",
+    "url_ja": "https://ekiworld.net/service/lp/webservice/",
+    "url_en": "https://ekiworld.net/service/lp/webservice/",
+    "size": "3",
+    "show": "true"
+  }
+]
