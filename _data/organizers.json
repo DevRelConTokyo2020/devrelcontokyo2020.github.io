@@ -56,7 +56,7 @@
     "type": "member",
     "name_en": "Taiji",
     "name_ja": "たいじ",
-    "title_en": "Developer Advocate",
+    "title_en": "Sr. Developer Advocate",
     "url": "https://developer.ibm.com",
     "twitter": "taiponrock",
     "github": "taijihagino",
@@ -69,7 +69,7 @@
     "type": "member",
     "name_en": "odasho",
     "name_ja": "おだしょー",
-    "title_en": "Technical Evangelist",
+    "title_en": "Evangelist",
     "url": "https://azure.microsoft.com/ja-jp/",
     "twitter": "MS_odasho",
     "github": "odasho0618",
@@ -80,10 +80,10 @@
   {
     "id": "szkn27",
     "type": "member",
-    "name_en": "Noriyuki Suzuki",
+    "name_en": "Nori Suzuki",
     "name_ja": "鈴木 教之",
-    "title_en": "",
-    "url": "",
+    "title_en": "Cloud Advocate Program Manager",
+    "url": "https://developer.microsoft.com/en-us/advocates/index.html",
     "twitter": "szkn27",
     "github": "suzukin",
     "facebook": "szkn27",
@@ -114,7 +114,7 @@
     "github": "antmatsu2000",
     "facebook": "aritomo.matsutani",
     "company_en": "ForesightSystem",
-    "company_ja": "フォアサイトシステム"
+    "company_ja": "フォーサイトシステム"
   },
   {
     "id": "msato",
@@ -149,7 +149,7 @@
     "name_ja": "木原 康智",
     "title_en": "",
     "url": "",
-    "twitter": "",
+    "twitter": "yasunori_k_",
     "github": "",
     "facebook": "ysnrkr",
     "company_en": "Hatena",
@@ -206,5 +206,18 @@
     "facebook": "hikaru.maruyama.54",
     "company_en": "Acquia Japan",
     "company_ja": "Acquia Japan"
+  },
+  {
+    "id": "nick",
+    "type": "member",
+    "name_en": "Takeshi Nick Osanai",
+    "name_ja": "長内 毅志",
+    "title_en": "Developer Relation",
+    "url": "",
+    "twitter": "Nick_smallworld",
+    "github": "Nick-smallowrld",
+    "facebook": "Nick.smallworld",
+    "company_en": "freee",
+    "company_ja": "freee"
   }
 ]
