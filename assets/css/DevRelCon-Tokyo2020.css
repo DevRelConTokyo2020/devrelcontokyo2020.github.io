@@ -66,7 +66,7 @@ a.nav-link {
 	font-family: bebas-kai, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 24px;
+	font-size: 22px;
 	text-align: center;
 	color: #2B4450 !important;
     padding-left: .5em !important;
@@ -672,6 +672,13 @@ Buttons
     transition: all 300ms ease-in-out;
 }
 
+.DevRelCon-button.blue {
+	background-color: #4619E6;
+}
+
+.DevRelCon-button.blue a {
+	color: #fff;
+}
 .DevRelCon-button:hover,
 .DevRelCon-button:focus,
 .DevRelCon-button:active {
