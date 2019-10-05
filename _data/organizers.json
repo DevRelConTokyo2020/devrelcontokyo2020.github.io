@@ -236,5 +236,19 @@
     "facebook": "Nick.smallworld",
     "company_en": "freee",
     "company_ja": "freee"
+  },
+  {
+    "id": "kabukawa",
+    "type": "member",
+    "name_en": "Kunihisa Abukawa",
+    "name_ja": "虻川 国久",
+    "title_en": "Developper",
+    "title_ja": "システムエンジニア",
+    "url": "https://kabukawa.github.io/",
+    "twitter": "kabukawa",
+    "github": "kabukawa",
+    "facebook": "Kunihisa Abukawa",
+    "company_en": "HAL Corp.",
+    "company_ja": "株式会社 HAL"
   }
 ]
