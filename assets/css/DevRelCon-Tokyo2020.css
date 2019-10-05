@@ -474,7 +474,7 @@ Sponsors
 	text-align: center;
 }
 .sponsor-wrapper .tag {
-	margin-top: 2em;
+	margin-top: 0.5em;
 }
 .sponsor {
 	padding: 2em;
@@ -916,3 +916,13 @@ Media Queries - Min
 #subscribeModal .form-control:focus {
   border-color: #49506a;
 }
+
+ul.socials {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+ul.socials li{ 	
+  display: inline;
+	padding-right: 0.1rem;
+} 

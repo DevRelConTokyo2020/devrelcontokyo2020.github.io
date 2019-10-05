@@ -4,7 +4,7 @@
   <div class="title-block">
     <h1 class="lang en bold red">Sponsors</h1>
     <h1 class="lang ja bold red">スポンサー</h1>
-    <p class="lang en">Do you want your brand to be a part of DevRelCon Tokyo 2010?</p>
+    <p class="lang en">Do you want your brand to be a part of DevRelCon Tokyo 2020?</p>
     <p class="lang ja">DevRelCon Tokyo 2020のスポンサーに興味がありますか？</p>
     <a href="mailto:devrelcon@moongift.jp?title=Abount sponsorship DevRelCon Tokyo 2020">
       <div class="DevRelCon-button">
@@ -28,10 +28,20 @@
       {% for sponsor in sponsors %}
         <div class="col-md-3 sponsor">
           <div class="lang en">
-            <a href="{{ sponsor.url_en }}"><img src="/assets/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name_en }}"></a>
+            <a href="{{ sponsor.url_en }}">
+              <picture>
+                <source loading="lazy" type="image/webp" srcset="/assets/img/sponsors/{{ sponsor.id }}.webp" />
+                <img loading="lazy" src="/assets/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name_en }}">
+              </picture>
+            </a>
           </div>
           <div class="lang ja">
-            <a href="{{ sponsor.url_ja }}"><img src="/assets/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name_ja }}"></a>
+            <a href="{{ sponsor.url_ja }}">
+              <picture>
+                <source loading="lazy" type="image/webp" srcset="/assets/img/sponsors/{{ sponsor.id }}.webp" />
+                <img loading="lazy" src="/assets/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name_ja }}">
+              </picture>
+            </a>
           </div>
           <div class="tag">{{ sponsor.type }} Sponsor</div>
         </div>

@@ -8,6 +8,16 @@ $(window).scroll(function() {
   }
 });
 
+const strWidth = (str) => {
+  const e = $("#ruler");
+  if (!e.text(str).get(0)) {
+    return 0;
+  }
+  const width = e.text(str).get(0).offsetWidth;
+  e.empty();
+  return width;
+}
+
 $(function () {
   $('a.scrollnav[href^="#"]').click(function(event) {
     var id = $(this).attr("href");
@@ -24,16 +34,22 @@ $(function () {
   });
   
   $('.lang.ja').hide();
-  var lang = navigator.language || navigator.userLanguage;
+  const lang = url('?lang') || navigator.language || navigator.userLanguage;
   if (lang.indexOf('ja') > -1) {
     $('.lang.en').hide();
     $('.lang.ja').show();
     changeTitle('ja');
   }
   
+  const num = lang == 'ja' ? -0.05 : 0.1;
+  changeStyle('.photo-credit', lang, num);
+  changeStyle('.speaker-details h3', lang, 0.1);
+  
   $('.change-lang').on('click', function(e) {
     changeLang($(e.target).data('lang'));
     changeTitle($(e.target).data('lang'));
+    changeStyle('.photo-credit', lang, num);
+    changeStyle('.speaker-details h3', lang, 0.1);
     return false;
   });
 });
@@ -63,3 +79,34 @@ function changeTitle(lang) {
   $('meta[name="description"]').attr('content', description);
 }
 
+
+const changeStyle = (ele, lang, num) => {
+  const patterns = {};
+  let fontSize = 0;
+  document.querySelectorAll(ele).forEach(d => {
+    if (!patterns[d.clientHeight]) patterns[d.clientHeight] = 0;
+    patterns[d.clientHeight]++;
+    fontSize = parseFloat(window.getComputedStyle(d, null).getPropertyValue('font-size'));
+  });
+  let maxSize = 0;
+  let cssHeight = 0;
+  for (let key in patterns) {
+    if (patterns[key] > maxSize) {
+      cssHeight = parseInt(key);
+      maxSize = patterns[key];
+    }
+  }
+  document.querySelectorAll(ele).forEach(d => {
+    if (!$(d).is(':visible')) return;
+    const text = $(d).find(`.${lang}`).text().trim();
+    if (d.clientHeight > cssHeight) {
+      const rate =  d.clientWidth / strWidth(text) + num;
+      d.style.fontSize = (fontSize * rate) + 'px';
+      d.style.height = cssHeight + 'px';
+    }
+    if (d.clientHeight < cssHeight) {
+      d.style.fontSize = fontSize + 'px';
+      d.style.height = cssHeight + 'px';
+    }
+  });
+}
