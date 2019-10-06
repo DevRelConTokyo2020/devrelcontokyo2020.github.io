@@ -81,6 +81,9 @@ function changeTitle(lang) {
 
 
 const changeStyle = (ele, lang, num) => {
+  if (document.location.pathname !== '/') {
+    return;
+  }
   const patterns = {};
   let fontSize = 0;
   document.querySelectorAll(ele).forEach(d => {

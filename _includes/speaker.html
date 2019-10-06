@@ -1,5 +1,6 @@
-{% assign speaker = site.data.sessions | where: "id", page.id %}
+{% assign speaker = site.data.speakers | where: "id", page.id %}
 {% assign speaker = speaker[0] %}
+
 <div class="intro">
   <div class="container">
     <div class="row d-flex align-items-center" style="padding-bottom:100px;padding-top:80px;">
@@ -7,6 +8,23 @@
         <div class="speaker-image">
           <img src="/assets/img/speakers/{{ speaker.id }}.jpg">
         </div>
+        <ul class="socials display-4">
+          {% if speaker.twitter != '' %}
+            <li><a title="Twitter account of {{ speaker.name_en }}" href="{{ speaker.twitter }}"><i class="fab fa-twitter-square"></i></a></li>
+          {% endif %}
+          {% if speaker.facebook != '' %}
+            <li><a title="Facebook account of {{ speaker.name_en }}" href="{{ speaker.twitter }}"><i class="fab fa-facebook-square"></i></a></li>
+          {% endif %}
+          {% if speaker.github != '' %}
+            <li><a title="GitHub account of {{ speaker.name_en }}" href="{{ speaker.github }}"><i class="fab fa-github-square"></i></a></li>
+          {% endif %}
+          {% if speaker.linkedin != '' %}
+            <li><a title="LinkedIn account of {{ speaker.name_en }}" href="{{ speaker.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
+          {% endif %}
+          {% if speaker.web != '' %}
+            <li><a title="Website of {{ speaker.name_en }}" href="{{ speaker.web }}"><i class="fas fa-globe"></i></a></li>
+          {% endif %}
+        </ul>
       </div>
       <div class="col-lg-8">
         <h1 class="lang en">{{ speaker.name_en }}</h1>
@@ -34,32 +52,23 @@
   </div>
 </div>
 
+{% assign sessions = site.data.sessions | where: "id", speaker['First session=sessions:id'] %}
+{% assign session = sessions[0] %}
 <div class="grey-bg" style="padding-top:100px;padding-bottom:100px;">
   <div class="container">
     <div class="col-lg-12">
       <h2 class="red-text lang en">
-        {{ speaker.title_en }}
+        {{ session.title_en }}
       </h2>
       <h2 class="red-text lang ja">
-        {{ speaker.title_ja }}
+        {{ session.title_ja }}
       </h2>
     </div>
     <div class="col-lg-12">
       <h3 class="lang en">Talk description</h3>
       <h3 class="lang ja">トーク概要</h3>
-      <p class="lang en">{{ speaker.description_en | markdownify | replace: "<p>" "<p class='lang en'>" }}</p>
-      <p class="lang ja">{{ speaker.description_en | markdownify | replace: "<p>" "<p class='lang ja'>" }}</p>
+      <p class="lang en">{{ session.description_en }}</p>
+      <p class="lang ja">{{ session.description_en }}</p>
     </div>
   </div>
 </div>
-
-<!--
-<div style="padding-top:100px;padding-bottom:100px;">
-  <div class="container">
-    <div class="col-lg-12">
-      <h3>Links</h3>
-      <p><a href="#">Twitter</a></p>
-    </div>
-  </div>
-</div>
--->

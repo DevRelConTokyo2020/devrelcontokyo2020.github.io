@@ -13,20 +13,22 @@
       {% for organizer in organizers %}
         <div class="col-md-4 col-lg-4 col-xl-4">
           <div class="speaker-card">
-            <picture>
-              <source type="image/webp" srcset="/assets/img/organizers/{{ organizer.id }}.webp" />
-              <img src="/assets/img/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_en }}">
-            </picture>
+            <a href="{{ organizer.url }}/">
+              <picture>
+                <source type="image/webp" srcset="/assets/img/organizers/{{ organizer.id }}.webp" />
+                <img src="/assets/img/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_en }}">
+              </picture>
+            </a>
             <div class="speaker-details">
               <ul class="socials">
                 {% if organizer.twitter != '' %}
-                  <li><a title="Twitter account of {{ organizer.name_en }}" href="https://twitter.com/{{ organizer.twitter }}"><i class="fab fa-twitter-square"></i></a></li>
+                  <li><a title="Twitter account of {{ organizer.name_en }}" href="{{ organizer.twitter }}"><i class="fab fa-twitter-square"></i></a></li>
                 {% endif %}
                 {% if organizer.facebook != '' %}
-                  <li><a title="Facebook account of {{ organizer.name_en }}" href="https://fb.me/{{ organizer.twitter }}"><i class="fab fa-facebook-square"></i></a></li>
+                  <li><a title="Facebook account of {{ organizer.name_en }}" href="{{ organizer.twitter }}"><i class="fab fa-facebook-square"></i></a></li>
                 {% endif %}
                 {% if organizer.github != '' %}
-                  <li><a title="GitHub account of {{ organizer.name_en }}" href="https://github.com/{{ organizer.github }}"><i class="fab fa-github-square"></i></a></li>
+                  <li><a title="GitHub account of {{ organizer.name_en }}" href="{{ organizer.github }}"><i class="fab fa-github-square"></i></a></li>
                 {% endif %}
                 {% if organizer.url != '' %}
                   <li><a title="Website of {{ organizer.name_en }}" href="{{ organizer.url }}"><i class="fas fa-globe"></i></a></li>
@@ -59,10 +61,12 @@
       {% for organizer in organizers %}
         <div class="col-md-3 col-lg-4 col-xl-3">
           <div class="speaker-card">
-            <picture>
-              <source loading="lazy" type="image/webp" srcset="/assets/img/organizers/{{ organizer.id }}.webp" />
-              <img loading="lazy" src="/assets/img/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name_en }}">
-            </picture>
+            <a href="/organizers/{{ organizer.id }}/">
+              <picture>
+                <source type="image/webp" srcset="/assets/img/organizers/{{ organizer.id }}.webp" />
+                <img src="/assets/img/organizers/{{ organizer.id }}.png" alt="{{ organizer.name_en }}">
+              </picture>
+            </a>
             <div class="speaker-details">
               <h3 class="name light red mb-2">
                 <span class="lang en">{{ organizer.name_en }}</span>
@@ -77,6 +81,9 @@
                 {% endif %}
                 {% if organizer.github != '' %}
                   <li><a title="GitHub account of {{ organizer.name_en }}" href="https://github.com/{{ organizer.github }}"><i class="fab fa-github-square"></i></a></li>
+                {% endif %}
+                {% if organizer.linkedin != '' %}
+                  <li><a title="LinkedIn account of {{ organizer.name_en }}" href="{{ organizer.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
                 {% endif %}
                 {% if organizer.url != '' %}
                   <li><a title="Website of {{ organizer.name_en }}" href="{{ organizer.url }}"><i class="fas fa-globe"></i></a></li>

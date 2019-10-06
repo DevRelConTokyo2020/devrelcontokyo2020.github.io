@@ -4,10 +4,11 @@
     "type": "Gold",
     "name_ja": "IBM",
     "name_en": "IBM",
-    "url_ja": "http://www-07.ibm.com/ibm/jp/bluehub/",
-    "url_en": "http://www-07.ibm.com/ibm/jp/bluehub/",
+    "url_ja": "http://developer.ibm.com/jp/",
+    "url_en": "http://developer.ibm.com",
     "size": "6",
-    "show": "true"
+    "show": "true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0c1f67.png?alt=media"
   },
   {
     "id": "yahoo",
@@ -17,7 +18,8 @@
     "url_ja": "https://www.yahoo.co.jp",
     "url_en": "https://www.yahoo.co.jp",
     "size": "6",
-    "show": "false"
+    "show": "false",
+    "image": ""
   },
   {
     "id": "val",
@@ -27,6 +29,7 @@
     "url_ja": "https://ekiworld.net/service/lp/webservice/",
     "url_en": "https://ekiworld.net/service/lp/webservice/",
     "size": "3",
-    "show": "true"
+    "show": "true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0a1416.png?alt=media"
   }
 ]
