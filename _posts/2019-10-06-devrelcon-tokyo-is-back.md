@@ -1,11 +1,11 @@
-----
+---
 layout: post
 title:  "DevRelCon Tokyo 2020開催のお知らせ"
 date:   2019-10-06 16:00:00 +0900
 language: ja
 category: information
 catch: devrelcon-tokyo-2019
-----
+---
 
 DevRelCon Tokyo 2020が帰ってきました！前回の2019では世界中より、150名を超える方々が参加したDevRelCon Tokyo 2019ですが、さらに規模を拡大してお届けします。今回のDevRelCon Tokyo 2020での新しい試みを紹介します。
 

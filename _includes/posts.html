@@ -9,7 +9,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-12">
         {% for post in site.posts %}
-          <div class="row lang {{ post.lang }}">
+          <div class="row lang {{ post.language }}" style="padding-bottom: 1em;">
             <div class="col-4">
               <a href="{{ post.url }}" title="{{ post.title }}">
                 <picture>
