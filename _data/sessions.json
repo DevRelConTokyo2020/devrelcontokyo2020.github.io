@@ -20,11 +20,11 @@
   {
     "id": "2801",
     "date": "2801",
-    "title_en": "TBD",
-    "title_ja": "TBD",
+    "title_en": "How much do you actually know about underrepresentation? ",
+    "title_ja": "過小評価についてどれくらい知っていますか？",
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fa5be32.jpeg?alt=media",
-    "description_en": "",
-    "description_ja": "",
+    "description_en": "Most people already know that the tech industry looks incredibly homogeneous and lacks diversity in every layer of it. But the contributing factors and the consequences of this picture are so hard to measure that it's still rare to have an honest discussion about the importance of diversity and reach an agreement on what can be done about it or if anything should be done at all. This talk brings a complete overview and tons of data on underrepresented groups in tech, the causes of underrepresentation, why the lack of diversity is a problem in the first place, the impact on your business and how important we, as leaders, are to improve this picture. The numbers are mostly focused on (the lack of) women in the tech industry, but many examples apply to other underrepresented groups and even other industries.",
+    "description_ja": "多くの人たちにはテクノロジー産業が均質的で、多様性がないことをすでに知っています。しかし、その要因と結果を測定するのは非常に難しく、多様性の重要性について議論し、何ができるのか、何をすべきかについて合意に達することは多くありません。 この講演では、テクノロジー領域において過小評価されているグループに関する概要と多くのデータ、過小評価される原因、そもそも多様性の欠如が問題である理由、ビジネスへの影響、そしてリーダーとして、改善の重要性を解説します。データは主にテクノロジー産業の女性に焦点を当てていますが、多くの例は過小評価されている他のグループや、別な産業にも当てはまるでしょう。",
     "category_en": "Keynote",
     "category_ja": "基調講演",
     "day": "28",
@@ -33,6 +33,24 @@
     "show": "true",
     "speakerName": "Tutti Quintella",
     "First speaker=speakers:name_en": "Tutti Quintella",
+    "Second speaker=speakers:name_en": ""
+  },
+  {
+    "id": "2902",
+    "date": "2901",
+    "title_en": "TBD",
+    "title_ja": "TBD",
+    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fad1dc2.jpeg?alt=media",
+    "description_en": "",
+    "description_ja": "",
+    "category_en": "Keynote",
+    "category_ja": "基調講演",
+    "day": "29",
+    "time": "10:35",
+    "room": "Track 1",
+    "show": "true",
+    "speakerName": "Fumitoshi Ukai",
+    "First speaker=speakers:name_en": "Fumitoshi Ukai",
     "Second speaker=speakers:name_en": ""
   }
 ]
