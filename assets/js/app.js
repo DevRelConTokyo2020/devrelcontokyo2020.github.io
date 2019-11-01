@@ -75,8 +75,10 @@ function changeTitle(lang) {
     var title = 'DevRelCon Tokyo 2020 – conference for developer relations, developer marketing, developer experience, APIs';
     var description = 'DevRelCon Tokyo is a one day conference for technical evangelists, developer advocates and anyone interested in developer relations and developer experience';
   }
-  $('title').text(title);
-  $('meta[name="description"]').attr('content', description);
+  if (document.location.pathname === '/') {
+    $('title').text(title);
+    $('meta[name="description"]').attr('content', description);
+  }
 }
 
 
