@@ -19,7 +19,7 @@ const strWidth = (str) => {
 }
 
 $(function () {
-  $('a.scrollnav[href^="#"]').click(function(event) {
+  $('a.scrollnav[href^="#"],.ticket').click(function(event) {
     var id = $(this).attr("href");
     var offset = 60;
     var target = $(id).offset().top - offset;
