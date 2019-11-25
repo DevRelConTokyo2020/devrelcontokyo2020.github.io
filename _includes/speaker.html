@@ -64,8 +64,8 @@
     <div class="col-lg-12">
       <strong class="lang en">Talk description</strong>
       <strong class="lang ja">トーク概要</strong>
-      <p class="lang en">{{ session.description_en }}</p>
-      <p class="lang ja">{{ session.description_ja }}</p>
+      <p class="lang en">{{ session.description_en | markdownify | replace: "<p>" "<p class='lang en'>" }}</p>
+      <p class="lang ja">{{ session.description_ja | markdownify | replace: "<p>" "<p class='lang ja'>" }}</p>
     </div>
   </div>
 </div>
