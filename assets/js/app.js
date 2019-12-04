@@ -19,7 +19,7 @@ const strWidth = (str) => {
 }
 
 $(function () {
-  $('a.scrollnav[href^="#"]').click(function(event) {
+  $('a.scrollnav[href^="#"],.ticket').click(function(event) {
     var id = $(this).attr("href");
     var offset = 60;
     var target = $(id).offset().top - offset;
@@ -75,12 +75,17 @@ function changeTitle(lang) {
     var title = 'DevRelCon Tokyo 2020 – conference for developer relations, developer marketing, developer experience, APIs';
     var description = 'DevRelCon Tokyo is a one day conference for technical evangelists, developer advocates and anyone interested in developer relations and developer experience';
   }
-  $('title').text(title);
-  $('meta[name="description"]').attr('content', description);
+  if (document.location.pathname === '/') {
+    $('title').text(title);
+    $('meta[name="description"]').attr('content', description);
+  }
 }
 
 
 const changeStyle = (ele, lang, num) => {
+  if (document.location.pathname !== '/') {
+    return;
+  }
   const patterns = {};
   let fontSize = 0;
   document.querySelectorAll(ele).forEach(d => {

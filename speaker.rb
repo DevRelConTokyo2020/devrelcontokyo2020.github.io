@@ -1,5 +1,5 @@
 require('json')
-json = JSON.parse(open('./_data/sessions.json').read)
+json = JSON.parse(open('./_data/speakers.json').read)
 
 json.each do |session|
   next unless session['speaker'] == 'true'

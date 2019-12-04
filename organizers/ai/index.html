@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><meta charset="utf-8">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>DevRelCon Tokyo 2020 – conference for developer relations, developer marketing, developer experience, APIs</title>
 <meta name="description" content="DevRelCon Tokyo 2020">
-<meta name="author" content="Hoopy">
+<meta name="author" content="MOONGIFT">
 
 <!-- ================================================
 
@@ -33,72 +38,150 @@ Favicons
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-<body><div id="about"></div>
-<div class="intro">
-  <div class="row d-flex align-items-center">
-    <div class="col-lg-6 photo-container">
-      <picture>
-        <source type="image/webp" loading="lazy" srcset="/assets/img/misc/DevRelCon-Tokyo.webp" />
-        <img src="/assets/img/misc/DevRelCon-Tokyo.jpg" loading="lazy" alt="DevRelCon Tokyo 2020">
-      </picture>
-      <div class="about-photo lang en">
-        <h4 class="bold">From: </h4>
-        <p>DevRelCon Tokyo 2019</p>
-      </div>
-      <div class="about-photo lang ja">
-        <p>DevRelCon Tokyo 2019より</p>
-      </div>
-    </div>
-    <div class="col-lg-6 mt-5 mt-lg-0 about">
-      <h1>DevRelCon Tokyo <span class="red">2020:</span></h1>
-      <p class="lang en">Over 200 professionals working in developer relations, DX, tech writing, API design, technical support, community and develper marketing.</p>
-      <p class="lang ja">200名を越えるDevRel、DX（開発者体験）、テクニカルライター、APIデザイナー、テクニカルサポート、開発者コミュニティ、開発者マーケティングに関わる方達が参加します。</p>
-      <p class="lang en">To participate in <strong>DevRelCon</strong>, you agree to abide by our <a href="/code-of-conduct/">code of conduct</a>.</p>
-      <p class="lang ja"><strong>DevRelCon</strong>の参加者は<a href="/code-of-conduct/">行動規範</a>に沿わなければなりません。</p>
+
+</head>
+<body>
+    <!-- ================================================
+
+  Navigation
+
+==================================================-->
+
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-white">
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#hoopyNav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse w-50" id="hoopyNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://moongift.co.jp/">MOONGIFT</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav flex-fill justify-content-center abs-center-x">
+      <li class="nav-item active">
+        <a class="nav-link lang en scrollnav" href="/#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link lang ja scrollnav" href="/#home">ホーム <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lang en scrollnav" href="/#about">About</a>
+        <a class="nav-link lang ja scrollnav" href="/#about">概要</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lang en scrollnav" href="/#speakers">Speakers</a>
+        <a class="nav-link lang ja scrollnav" href="/#speakers">スピーカー</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lang en scrollnav" href="/#schedule">Schedule</a>
+        <a class="nav-link lang ja scrollnav" href="/#schedule">日程</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lang en scrollnav" href="/#sponsors">Sponsors</a>
+        <a class="nav-link lang ja scrollnav" href="/#sponsors">スポンサー</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lang en scrollnav" href="/#venue">Venue</a>
+        <a class="nav-link lang ja scrollnav" href="/#venue">会場</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link lang en scrollnav" href="/#organizers">Organizers</a>
+        <a class="nav-link lang ja scrollnav" href="/#organizers">運営</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link change-lang lang en" href="#" data-lang="ja">🇬🇧</a>
+        <a class="nav-link change-lang lang ja" href="#" data-lang="en">🇯🇵</a>
+      </li>
+    </ul>
+    <div style="text-align:center;">
       <a rel="noreferrer" href="https://www.papercall.io/devrelcon-tokyo-2020" target="_blank">
-        <div class="DevRelCon-button mr-md-2 mt-4 mt-md-5">
+        <div class="DevRelCon-button mt-3 mt-lg-0 mb-4 mb-lg-0">
           <span class="lang en">Send CFP (until Nov. 15th)</span>
           <span class="lang ja">CFPを送る (11月15日まで)</span>
         </div>
       </a>
-      <a data-toggle="modal" data-target="#subscribeModal" href="#" style="border-bottom:0;">
-        <div class="lang en DevRelCon-button mt-4 mt-md-5">Get update</div>
-        <div class="lang ja DevRelCon-button mt-4 mt-md-5">アップデートを受け取る</div>
-      </a>
     </div>
   </div>
-</div><main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+</nav>
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2019-10-03T22:16:25+09:00" itemprop="datePublished">Oct 3, 2019
-      </time></p>
-  </header>
+    <!-- Header -->
+    
+    
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-  </div><a class="u-url" href="/jekyll/update/2019/10/03/welcome-to-jekyll.html" hidden></a>
-</article>
-
+<div class="intro">
+  <div class="container">
+    <div class="row d-flex align-items-center" style="padding-bottom:100px;padding-top:80px;">
+      <div class="col-lg-4">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="organizer-image">
+              <img src="/assets/img/organizers/ai.jpg">
+            </div>
+            <div class="col-md-12">
+              <ul class="socials display-4">
+                
+                  <li><a title="Twitter account of Ai Naito" href="https://twitter.com/ai_n1991"><i class="fab fa-twitter-square"></i></a></li>
+                
+                
+                  <li><a title="Facebook account of Ai Naito" href="https://twitter.com/ai_n1991"><i class="fab fa-facebook-square"></i></a></li>
+                
+                
+                
+                  <li><a title="LinkedIn account of Ai Naito" href="https://jp.linkedin.com/in/ai-naito"><i class="fab fa-linkedin"></i></a></li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </main><!-- ================================================
+      <div class="col-lg-8">
+        <h1 class="lang en">Ai Naito</h1>
+        <h1 class="lang ja">内藤 愛</h1>
+        <div class="row">
+          <div class="col-12">
+            <p class="photo-credit lang en">
+              Communication Specialsit
+            </p>
+            <p class="photo-credit lang ja">
+              コミュニケーションスペシャリスト
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="bold photo-credit lang en">
+              App Annie Japan
+            </p>
+            <p class="bold photo-credit lang ja">
+              アップアニー
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="mt-5 lang en">
+              
+            </p>
+            <p class="mt-5 lang ja">
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='/assets/js/mc-validate.js' type='text/javascript'></script>
+<script src="/assets/js/url.min.js"></script>
+<script src="/assets/js/app.js"></script>
+
+    
+    <!-- ================================================
 
   Footer
 
@@ -131,7 +214,7 @@ Favicons
         </a>
         <p><a style="border:none;" href="https://twitter.com/devrelcontokyo"><i class="fab fa-twitter mt-5"></i></a>
         <a style="border:none;display:inline-block;" href="https://www.facebook.com/devrelcontokyo"><i class="fab fa-facebook mt-5 ml-4"></i></a></p>
-        <p class="footer-text"><a href="/code-of-conduct/">Code of Conduct</a></p>
+        <p class="footer-text"><a href="/code-of-conduct.html">Code of Conduct</a></p>
         <p class="footer-text mt-1">© 2019 MOONGIFT Ltd. DevRelCon is a registered trademark of <a href="https://hoopy.io">Hoopy</a> Limited.</p>
       </div>
       
@@ -189,7 +272,8 @@ Favicons
       </form>
     </div>
   </div>
-            <script>
+
+              <script>
                 window.onload = function () {
                     var script = document.createElement('script');
                     var firstScript = document.getElementsByTagName('script')[0];
@@ -200,6 +284,5 @@ Favicons
                 };
             </script>
             </body>
-
 
 </html>
