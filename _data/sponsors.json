@@ -31,5 +31,16 @@
     "size": "3",
     "show": "true",
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0a1416.png?alt=media"
+  },
+  {
+    "id": "nexmo",
+    "type": "Bronze",
+    "name_ja": "Nexmo",
+    "name_en": "Nexmo",
+    "url_ja": "https://developer.nexmo.com/",
+    "url_en": "https://developer.nexmo.com/",
+    "size": "2",
+    "show": "true",
+    "image": ""
   }
 ]
