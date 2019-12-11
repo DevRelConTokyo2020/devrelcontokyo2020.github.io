@@ -1,7 +1,7 @@
                         importScripts("/build/js/workbox-v3.6.3/workbox-sw.js");
             workbox.setConfig({modulePathPrefix: "/build/js/workbox-v3.6.3"});
 
-            self.__precacheManifest = [{"url":"/assets/js/mc-validate.js","revision":"e33fb0ebcbbbae8d823fe377daf29219"},{"url":"/assets/js/url.min.js","revision":"41a8388349d34518989881fea1319c5d"},{"url":"/assets/js/app.js","revision":"c3d7c121f3ca70ec7fcc095215462b5c"},{"url":"/assets/css/DevRelCon-Tokyo2020.css","revision":"68858e41a0cfc220de30021897a1c978"},{"url":"/index.html","revision":"c2c30a6d4d9a4ad15807bd0af4ede66c"},{"url":"/information/2019/10/06/devrelcon-tokyo-is-back.html","revision":"42fb3ba849d40a375cb5df4324662dd5"},{"url":"/information/2019/10/06/devrelcon-tokyo-is-back-en.html","revision":"8b1b7e54118c6bf94a27bfcc23910ce8"}];
+            self.__precacheManifest = [{"url":"/assets/js/mc-validate.js","revision":"e33fb0ebcbbbae8d823fe377daf29219"},{"url":"/assets/js/url.min.js","revision":"41a8388349d34518989881fea1319c5d"},{"url":"/assets/js/app.js","revision":"c3d7c121f3ca70ec7fcc095215462b5c"},{"url":"/assets/css/DevRelCon-Tokyo2020.css","revision":"68858e41a0cfc220de30021897a1c978"},{"url":"/index.html","revision":"25778a1604fbcca64cdd91e98f513dde"},{"url":"/information/2019/10/06/devrelcon-tokyo-is-back.html","revision":"42fb3ba849d40a375cb5df4324662dd5"},{"url":"/information/2019/10/06/devrelcon-tokyo-is-back-en.html","revision":"8b1b7e54118c6bf94a27bfcc23910ce8"}];
             // service-worker.js
 
 // set names for both precache & runtime cache
