@@ -21,8 +21,7 @@
     "speaker": "true",
     "First session=sessions:id": "2801",
     "Second session=sessions:id": "",
-    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fd23fb9.jpeg?alt=media",
-    "notification1": "Y"
+    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fd23fb9.jpeg?alt=media"
   },
   {
     "id": "timfong888",
@@ -46,8 +45,7 @@
     "speaker": "false",
     "First session=sessions:id": "2802",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "ben",
@@ -71,8 +69,7 @@
     "speaker": "true",
     "First session=sessions:id": "2803",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "felipe",
@@ -96,8 +93,7 @@
     "speaker": "true",
     "First session=sessions:id": "2805",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "krispy",
@@ -121,8 +117,7 @@
     "speaker": "true",
     "First session=sessions:id": "2806",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "austin",
@@ -146,8 +141,7 @@
     "speaker": "true",
     "First session=sessions:id": "2807",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "alex",
@@ -171,8 +165,7 @@
     "speaker": "true",
     "First session=sessions:id": "2808",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "michelle",
@@ -196,8 +189,7 @@
     "speaker": "false",
     "First session=sessions:id": "2809",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "geraldine",
@@ -207,22 +199,21 @@
     "company_ja": "Tableau",
     "profile_en": "Geraldine a.k.a. Gigi is a Developer Advocate at Tableau. Her new mission is to enable Tableau’s developers to be successful in their adoption and usage of our APIs and developer tools. Before moving to Seattle, she was a Product Consultant based in our London office. She was helping customers from all around EMEA in their Tableau adoption with a focus on the developer platform. Prior to that, she worked in IT Management and completed a double MSc in Information Systems and Computer Science, a real geek! Originally from Mauritius (a tiny island in the Indian Ocean), Gigi decided to trade sunny days for new adventures in Europe and now the US.",
     "profile_ja": "別名をジジというジェラルディンは、Tableauのデベロッパー・アドボケイトです。彼女の新しいミッションは、Tableauのデベロッパーが私たちのAPIとデベロッパー・ツールをうまく採用し使うことができるようにすることです。シアトルに引っ越す前、彼女は私たちのロンドン事務所に属する製品コンサルタントでした。彼女は、EMEA(ヨーロッパ・中東・アフリカ）中の顧客にデベロッパー・プラットフォームに重点を置いてTableauを採用してもらうように手助けしてきました。それ以前は、彼女はITマネジメント分野で仕事をし、情報システムとコンピュータ・サイエンスのダブル科学修士号を取得しており、本当のオタクです。モーリシャス（インド洋の小さな島）出身で、ジジは晴れた日々をヨーロッパそして今では米国での新たな冒険と交換することに決めたのでした。",
-    "speaker_title_en": "",
-    "speaker_title_ja": "",
+    "speaker_title_en": "Developer Advocate",
+    "speaker_title_ja": "デベロッパーアドボケイト",
     "web": "",
     "twitter": "https://twitter.com/illonage",
     "facebook": "",
-    "github": "",
+    "github": "https://github.com/illonage",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/gzanolli/",
     "youtube": "",
     "instagram": "",
     "stackoverflow": "",
     "speaker": "true",
     "First session=sessions:id": "2809",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "lestrrat",
@@ -240,14 +231,13 @@
     "github": "https://github.com/lestrrat",
     "google": "",
     "linkedin": "",
-    "youtube": "",
+    "youtube": "https://www.youtube.com/channel/UCREJ-mEGXey_DsFb0z6eePA",
     "instagram": "",
     "stackoverflow": "",
     "speaker": "true",
     "First session=sessions:id": "2901",
     "Second session=sessions:id": "",
-    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fc2033f.jpeg?alt=media",
-    "notification1": "Y"
+    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fc2033f.jpeg?alt=media"
   },
   {
     "id": "ukai",
@@ -271,8 +261,7 @@
     "speaker": "true",
     "First session=sessions:id": "2902",
     "Second session=sessions:id": "",
-    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F2dd586.jpeg?alt=media",
-    "notification1": "Y"
+    "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F2dd586.jpeg?alt=media"
   },
   {
     "id": "emma",
@@ -282,22 +271,21 @@
     "company_ja": "Google",
     "profile_en": "Emma is a developer advocate for Google Cloud Platform based in Seattle, focusing on platform products . She has been a C++ developer for more than 15 years and worked on embedded systems and the Chromium Project. Besides software engineering, she likes games, traveling, and eating delicious food.",
     "profile_ja": "エマは、プラットフォーム製品に重点を置いたシアトルを本拠とするGoogleクラウド・プラットフォームのデベロッパー・アドボケイトです。彼女は、15年以上にわたりC++のデベロッパーで、埋め込みシステムとクロミウム・プロジェクトの仕事をしていました。ソフトウェア・エンジニアリング以外では、彼女はゲーム、旅行、おいしい物を食べるのが好きです。",
-    "speaker_title_en": "",
-    "speaker_title_ja": "",
+    "speaker_title_en": "Developer Advocate",
+    "speaker_title_ja": "デベロッパーアドボケイト",
     "web": "",
     "twitter": "https://twitter.com/Yuryu",
-    "facebook": "",
-    "github": "",
+    "facebook": "http://facebook.com/yuryu",
+    "github": "https://github.com/yuryu",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/yuryu/",
     "youtube": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/yuryu_emma/",
     "stackoverflow": "",
     "speaker": "true",
     "First session=sessions:id": "2903",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "seigo",
@@ -321,8 +309,7 @@
     "speaker": "true",
     "First session=sessions:id": "2904",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "yuko",
@@ -346,33 +333,31 @@
     "speaker": "true",
     "First session=sessions:id": "2905",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "charles",
     "name_en": "Charles Pretzer",
     "name_ja": "Charles Pretzer",
-    "company_en": "Linkerd, Buoyant",
-    "company_ja": "Linkerd, Buoyant",
-    "profile_en": "Name: Charles Pretzer:\nCompany: Buoyant\nJob Title: Field Engineer\n\nCharles Pretzer is a field engineer at Buoyant, where he spends his time collaborating and engaging with the open source community of the CNCF service mesh, Linkerd. He also enables production level adoption by helping companies integrate Linkerd into their Kubernetes based applications. Charles has spoken at meetups and conferences hosted by ABN Amro, Macnica, and at the NGINX Conference. When he's not presenting or in hacking away at his computer, he's riding a motorcycle or making a delicious mess in the kitchen.\n",
-    "profile_ja": "氏名：チャールズ・プレッツァー\n会社：　Buoyant\n役職：フィールド・エンジニア　　\nチャールズ・プレッツァーはBuoyant社のフィールド・エンジニアで、CNCFのサービス・メッシュであるLinkerdのオープンソース・コミュニティと協力し同コミュニティに関与するのに時間を費やしています。彼はまた、企業がLinkerdをKubernetesベースのアプリに統合するのを助けることにより、プロダクション・レベルで採用してもらえるようにしています。チャールズは、ABN Amro, Macnicaが主催するミートアップや会議やNGINX会議で講演してきました。彼が発表したりせず、あるいはコンピュータから離れている時には、自転車に乗るか美味しい料理を作って台所を汚しています。",
-    "speaker_title_en": "",
-    "speaker_title_ja": "",
-    "web": "",
+    "company_en": "Buoyant",
+    "company_ja": "Buoyant",
+    "profile_en": "Charles Pretzer is a field engineer at Buoyant, where he spends his time collaborating and engaging with the open source community of the CNCF service mesh, Linkerd. He also enables production level adoption by helping companies integrate Linkerd into their Kubernetes based applications. Charles has spoken at meetups and conferences hosted by ABN Amro, Macnica, and at the NGINX Conference. When he's not presenting or in hacking away at his computer, he's riding a motorcycle or making a delicious mess in the kitchen.\n",
+    "profile_ja": "チャールズ・プレッツァーはBuoyant社のフィールド・エンジニアで、CNCFのサービス・メッシュであるLinkerdのオープンソース・コミュニティと協力し同コミュニティに関与するのに時間を費やしています。彼はまた、企業がLinkerdをKubernetesベースのアプリに統合するのを助けることにより、プロダクション・レベルで採用してもらえるようにしています。チャールズは、ABN Amro, Macnicaが主催するミートアップや会議やNGINX会議で講演してきました。彼が発表したりせず、あるいはコンピュータから離れている時には、自転車に乗るか美味しい料理を作って台所を汚しています。",
+    "speaker_title_en": "Field Engineer",
+    "speaker_title_ja": "フィールドエンジニア",
+    "web": "https://www.buoyant.io",
     "twitter": "https://twitter.com/charpretz",
     "facebook": "",
-    "github": "",
+    "github": "https://github.com/cpretzer",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/charlespretzer/",
     "youtube": "",
     "instagram": "",
     "stackoverflow": "",
     "speaker": "false",
     "First session=sessions:id": "2906",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "taiji",
@@ -396,8 +381,7 @@
     "speaker": "true",
     "First session=sessions:id": "2907",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "arkodyuti",
@@ -421,8 +405,7 @@
     "speaker": "true",
     "First session=sessions:id": "2908",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "mx",
@@ -446,8 +429,7 @@
     "speaker": "true",
     "First session=sessions:id": "2909",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "jaap",
@@ -471,8 +453,7 @@
     "speaker": "true",
     "First session=sessions:id": "2910",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "peter",
@@ -496,8 +477,7 @@
     "speaker": "true",
     "First session=sessions:id": "2911",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "tiffany",
@@ -521,8 +501,7 @@
     "speaker": "true",
     "First session=sessions:id": "2912",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "ankit",
@@ -537,17 +516,16 @@
     "web": "https://reps.mozilla.org/u/ankitgadgil/",
     "twitter": "https://twitter.com/anknite",
     "facebook": "",
-    "github": "",
+    "github": "http://github.com/anknite/",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://in.linkedin.com/in/ankit-gadgil-42882457",
     "youtube": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/anknite",
     "stackoverflow": "",
     "speaker": "true",
     "First session=sessions:id": "2913",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "wataru",
@@ -571,8 +549,7 @@
     "speaker": "true",
     "First session=sessions:id": "2914",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "ari",
@@ -596,8 +573,7 @@
     "speaker": "true",
     "First session=sessions:id": "2915",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "jj",
@@ -621,8 +597,7 @@
     "speaker": "true",
     "First session=sessions:id": "2916",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "joe",
@@ -646,8 +621,7 @@
     "speaker": "true",
     "First session=sessions:id": "2917",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   },
   {
     "id": "taylor",
@@ -671,7 +645,6 @@
     "speaker": "true",
     "First session=sessions:id": "2918",
     "Second session=sessions:id": "",
-    "image": "",
-    "notification1": "Y"
+    "image": ""
   }
 ]
