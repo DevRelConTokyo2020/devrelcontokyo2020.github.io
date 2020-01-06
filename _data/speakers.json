@@ -1,20 +1,20 @@
 [
   {
-    "id": "tutti",
     "name_en": "Tutti Quintella",
+    "id": "tutti",
     "name_ja": "Tutti Quintella",
     "company_en": "Women Who Code Tokyo",
     "company_ja": "Women Who Code Tokyo",
     "profile_en": "Tutti is an Engineering Manager at Mercari Inc. and Director of Women Who Code Tokyo. Originally from São Paulo (Brazil), Tutti has worked as a software engineer since 2011 in 3 different countries and companies of various sizes. She's passionate about education and technology, and engaged in increasing diversity and reducing the gender gap in the technology industry.",
     "profile_ja": "Tuttiはメルカリのエンジニアリングマネージャー、そしてWomen Who Code Tokyoのディレクターです。 サンパウロ（ブラジル）出身のTuttiは、2011年から3か国で様々な規模の企業においてソフトウェアエンジニアとして働いてきました。教育と技術に情熱を傾けており、テクノロジー市場において多様性を高め、性差を減らすことに取り組んでいます。",
-    "speaker_title_en": "",
-    "speaker_title_ja": "",
+    "speaker_title_en": "Director",
+    "speaker_title_ja": "ディレクター",
     "web": "https://womenwhocode.com/tokyo",
-    "twitter": "",
-    "facebook": "",
-    "github": "",
+    "twitter": "https://twitter.com/tuttiq ",
+    "facebook": "https://www.facebook.com/tuttiquintella",
+    "github": "https://github.com/tuttiq",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://linkedin.com/in/tuttiq",
     "youtube": "",
     "instagram": "",
     "stackoverflow": "",
@@ -24,8 +24,8 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fd23fb9.jpeg?alt=media"
   },
   {
-    "id": "timfong888",
     "name_en": "timfong888@gmail.com",
+    "id": "timfong888",
     "name_ja": "timfong888@gmail.com",
     "company_en": "The Linux Foundation",
     "company_ja": "The Linux Foundation",
@@ -48,8 +48,8 @@
     "image": ""
   },
   {
-    "id": "ben",
     "name_en": "Ben Michel",
+    "id": "ben",
     "name_ja": "Ben Michel",
     "company_en": "InVisionApp",
     "company_ja": "InVisionApp",
@@ -72,8 +72,8 @@
     "image": ""
   },
   {
-    "id": "felipe",
     "name_en": "Felipe Hoffa",
+    "id": "felipe",
     "name_ja": "Felipe Hoffa",
     "company_en": "Google",
     "company_ja": "Google",
@@ -91,13 +91,13 @@
     "instagram": "",
     "stackoverflow": "",
     "speaker": "true",
-    "First session=sessions:id": "2805",
+    "First session=sessions:id": "2804",
     "Second session=sessions:id": "",
     "image": ""
   },
   {
-    "id": "krispy",
     "name_en": "Krispy Uccello",
+    "id": "krispy",
     "name_ja": "Krispy Uccello",
     "company_en": "Credit Karma",
     "company_ja": "Credit Karma",
@@ -108,20 +108,20 @@
     "web": "https://www.linkedin.com/in/kristanuccello/",
     "twitter": "https://twitter.com/_krispy_",
     "facebook": "",
-    "github": "",
+    "github": "https://github.com/kuccello",
     "google": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/kristanuccello",
     "youtube": "",
     "instagram": "",
-    "stackoverflow": "",
+    "stackoverflow": "https://stackoverflow.com/users/1236092/krispy",
     "speaker": "true",
-    "First session=sessions:id": "2806",
+    "First session=sessions:id": "2805",
     "Second session=sessions:id": "",
     "image": ""
   },
   {
-    "id": "austin",
     "name_en": "Austin Blackstone",
+    "id": "austin",
     "name_ja": "アステン黒石",
     "company_en": "Arm Pelion / Mbed OS",
     "company_ja": "Arm Pelion / Mbed OS",
@@ -144,8 +144,8 @@
     "image": ""
   },
   {
-    "id": "alex",
     "name_en": "Alex Lakatos",
+    "id": "alex",
     "name_ja": "Alex Lakatos",
     "company_en": "Nexmo",
     "company_ja": "Nexmo",
@@ -168,8 +168,8 @@
     "image": ""
   },
   {
-    "id": "michelle",
     "name_en": "Michelle Mannering",
+    "id": "michelle",
     "name_ja": "Michelle Mannering",
     "company_en": "GitHub",
     "company_ja": "GitHub",
@@ -179,21 +179,21 @@
     "speaker_title_ja": "",
     "web": "http://hackathonqueen.com",
     "twitter": "https://twitter.com/MishManners",
-    "facebook": "",
-    "github": "",
+    "facebook": "https://www.facebook.com/mishmanners",
+    "github": "https://github.com/MishManners",
     "google": "",
-    "linkedin": "",
-    "youtube": "",
-    "instagram": "",
+    "linkedin": "https://au.linkedin.com/in/mishmanners",
+    "youtube": "https://www.youtube.com/c/mishmanners",
+    "instagram": "https://www.instagram.com/mishmanners_",
     "stackoverflow": "",
-    "speaker": "false",
+    "speaker": "true",
     "First session=sessions:id": "2809",
     "Second session=sessions:id": "",
     "image": ""
   },
   {
-    "id": "geraldine",
     "name_en": "Geraldine Zanolli",
+    "id": "geraldine",
     "name_ja": "Geraldine Zanolli",
     "company_en": "Tableau",
     "company_ja": "Tableau",
@@ -216,8 +216,8 @@
     "image": ""
   },
   {
-    "id": "lestrrat",
     "name_en": "Daisuke Maki",
+    "id": "lestrrat",
     "name_ja": "牧 大輔",
     "company_en": "Mercari",
     "company_ja": "メルカリ",
@@ -240,8 +240,8 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2Fc2033f.jpeg?alt=media"
   },
   {
-    "id": "ukai",
     "name_en": "Fumitoshi Ukai",
+    "id": "ukai",
     "name_ja": "鵜飼 文敏",
     "company_en": "Google",
     "company_ja": "Google",
@@ -264,8 +264,8 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F2dd586.jpeg?alt=media"
   },
   {
-    "id": "emma",
     "name_en": "Emma Haruka Iwao",
+    "id": "emma",
     "name_ja": "Emma Haruka Iwao",
     "company_en": "Google",
     "company_ja": "Google",
@@ -288,8 +288,8 @@
     "image": ""
   },
   {
-    "id": "seigo",
     "name_en": "Seigo Tanaka",
+    "id": "seigo",
     "name_ja": "Seigo Tanaka",
     "company_en": "1ft-seabass",
     "company_ja": "1ft-seabass",
@@ -312,8 +312,8 @@
     "image": ""
   },
   {
-    "id": "yuko",
     "name_en": "Yuko Kondo",
+    "id": "yuko",
     "name_ja": "Yuko Kondo",
     "company_en": "SHOEISHA Co.,Ltd.",
     "company_ja": "翔泳社",
@@ -336,8 +336,8 @@
     "image": ""
   },
   {
-    "id": "charles",
     "name_en": "Charles Pretzer",
+    "id": "charles",
     "name_ja": "Charles Pretzer",
     "company_en": "Buoyant",
     "company_ja": "Buoyant",
@@ -360,8 +360,8 @@
     "image": ""
   },
   {
-    "id": "taiji",
     "name_en": "Taiji Hagino",
+    "id": "taiji",
     "name_ja": "Taiji Hagino",
     "company_en": "IBM",
     "company_ja": "IBM",
@@ -384,8 +384,8 @@
     "image": ""
   },
   {
-    "id": "arkodyuti",
     "name_en": "Arkodyuti Saha",
+    "id": "arkodyuti",
     "name_ja": "Arkodyuti Saha",
     "company_en": "Microsoft",
     "company_ja": "Microsoft",
@@ -408,8 +408,8 @@
     "image": ""
   },
   {
-    "id": "mx",
     "name_en": "Mx. Kas Perch",
+    "id": "mx",
     "name_ja": "Mx. Kas Perch",
     "company_en": "Cloudflare",
     "company_ja": "Cloudflare",
@@ -432,8 +432,8 @@
     "image": ""
   },
   {
-    "id": "jaap",
     "name_en": "Jaap Brasser",
+    "id": "jaap",
     "name_ja": "Jaap Brasser",
     "company_en": "Rubrik",
     "company_ja": "Rubrik",
@@ -456,8 +456,8 @@
     "image": ""
   },
   {
-    "id": "peter",
     "name_en": "Peter Kinnaird",
+    "id": "peter",
     "name_ja": "Peter Kinnaird",
     "company_en": "Arm",
     "company_ja": "Arm",
@@ -480,8 +480,8 @@
     "image": ""
   },
   {
-    "id": "tiffany",
     "name_en": "Tiffany Tse",
+    "id": "tiffany",
     "name_ja": "Tiffany Tse",
     "company_en": "Shopify",
     "company_ja": "Shopify",
@@ -504,8 +504,8 @@
     "image": ""
   },
   {
-    "id": "ankit",
     "name_en": "Ankit Gadgil",
+    "id": "ankit",
     "name_ja": "Ankit Gadgil",
     "company_en": "Mozilla, Red Hat",
     "company_ja": "Mozilla, Red Hat",
@@ -528,8 +528,8 @@
     "image": ""
   },
   {
-    "id": "wataru",
     "name_en": "wataru yamazaki",
+    "id": "wataru",
     "name_ja": "wataru yamazaki",
     "company_en": "Uhuru Corporation",
     "company_ja": "ウフル",
@@ -552,8 +552,8 @@
     "image": ""
   },
   {
-    "id": "ari",
     "name_en": "Ari V",
+    "id": "ari",
     "name_ja": "Ari V",
     "company_en": "Embark Studios",
     "company_ja": "Embark Studios",
@@ -576,8 +576,8 @@
     "image": ""
   },
   {
-    "id": "jj",
     "name_en": "JJ Asghar",
+    "id": "jj",
     "name_ja": "JJ Asghar",
     "company_en": "IBM",
     "company_ja": "IBM",
@@ -600,8 +600,8 @@
     "image": ""
   },
   {
-    "id": "joe",
     "name_en": "Joe Karlsson",
+    "id": "joe",
     "name_ja": "Joe Karlsson",
     "company_en": "MongoDB",
     "company_ja": "MongoDB",
@@ -624,8 +624,8 @@
     "image": ""
   },
   {
-    "id": "taylor",
     "name_en": "Taylor Krusen",
+    "id": "taylor",
     "name_ja": "Taylor Krusen",
     "company_en": "Dropbox",
     "company_ja": "Dropbox",
