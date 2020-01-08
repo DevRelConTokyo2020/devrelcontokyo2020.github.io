@@ -450,24 +450,6 @@
     "Second speaker=speakers:name_en": ""
   },
   {
-    "id": "2917",
-    "date": "2901",
-    "title_en": "Twitch Streaming in Real Time",
-    "title_ja": "リアルタイムのツイッチ・ストリーミング",
-    "image": "",
-    "description_en": "When people think of Twitch they likely associate it with video game streaming. However, young aspiring developers will flock to the Twitch streaming platform to teach themselves fundamentals of software development. Enterprise tech companies are starting to use Twitch as a means to reach these developers to familiarize them with their tooling and teach them coding fundamentals as a way of deepening their communities. Developer relations is a huge part of enterprise tech companies, its part evangelism/part engineer and these teams are now spending parts of their weeks streaming themselves coding. In this talk, we will discuss ways we are engaging with Twitch in order to reach this new audience, as well as tips and tricks I've picked up for running a successful streaming channel.",
-    "description_ja": "人々がTwitchについて考える時、ビデオゲームのストリーミングと関連付けがちです。しかし、若いデベロッパーの卵は、Twitchのストリーミング・プラットフォームに集まり、ソフトウェア開発の基礎を自習しているのです。エンタープライズ技術の会社は、こうしたデベロッパーに接触し彼らにツールを習熟してもらい、コミュニティを深める方法としてのコーディングの基礎を教える手段としてTwitchを使い始めています。デベロッパー・リレーションは、エンタープライズ技術の会社の巨大な部分となっており、一部エバンジェリスト/一部エンジニアである人とそのチームが勤務時間の一部を使って、自分たちがコーディングしているところをストリーミングしていまます。ここでは、成功したストリーミング・チャネルを運営した経験から学んだこつと秘訣だけでなく、この新しい聴衆に届くためにTwitchを使う方法についてお話します。",
-    "category_en": "Community",
-    "category_ja": "コミュニティ",
-    "day": "29",
-    "time": "",
-    "room": "",
-    "show": "true",
-    "speakerName": "Joe Karlsson",
-    "First speaker=speakers:name_en": "Joe Karlsson",
-    "Second speaker=speakers:name_en": ""
-  },
-  {
     "id": "2918",
     "date": "2901",
     "title_en": "Teach people to use your API by not being an expert",
