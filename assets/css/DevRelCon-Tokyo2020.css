@@ -34,12 +34,12 @@ p a:active {
 	text-decoration: none;
 	border-bottom: 1px solid #E61946;
 }
-a#conf-tab,
-a#unconf-tab {
+a#bizday-tab,
+a#devday-tab {
     color: #2B2C3A !important;
 }
-a#conf-tab.active,
-a#unconf-tab.active {
+a#bizday-tab.active,
+a#devday-tab.active {
     color: #fff !important;
 }
 .h1, h1,

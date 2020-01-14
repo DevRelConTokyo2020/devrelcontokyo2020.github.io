@@ -1,0 +1,109 @@
+{% for ary in site.data.session29 %}
+  {% if ary.first[1][0].room == 'Track 4' %}
+
+    <div class="container">
+      <div class="row">
+        <div class="schedule-title-row col-md-12">
+          <p class="medium lang en">{{ ary.first[1][0].room_name_en}}</p>
+          <p class="medium lang ja">{{ ary.first[1][0].room_name_ja}}</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="schedule-block">
+      {% for sessions in ary %}
+        {% for session in sessions[1] %}
+          <div class="row">
+            <div class="col-md-2"><p class="red medium">{{ session.time }}</p></div>
+            <div class="col-md-7">
+              {% if session.speaker %}
+                <a href="/speakers/{{ session.speaker.id }}/">
+              {% endif %}
+              <p class="medium lang en">{{ session.title_en }}</p>
+              <p class="medium lang ja">{{ session.title_ja }}</p>
+              {% if session.speaker %}
+                </a>
+              {% endif %}
+              {% if session.speaker %}
+                <p class="lang en">{{ session.speaker.name_en }}, {{ session.speaker.company_en }}</p>
+                <p class="lang ja">{{ session.speaker.name_ja }}, {{ session.speaker.company_ja }}</p>
+              {% endif %}
+            </div>
+            <div class="col-md-3 d-flex justify-content-end">
+              <div class="profile-image">
+                <picture>
+                  <source loading="lazy" type="image/webp" srcset="/assets/img/speakers/{{session.speaker.id}}.webp" />
+                  <img loading="lazy" src="/assets/img/speakers/{{session.speaker.id}}.jpg" alt="{{ session.speaker.name_en }}">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <hr>
+        {% endfor %}
+      {% endfor %}
+    </div>
+
+    
+  {% elsif ary.first[1][0].room == '' %}
+    {% for sessions in ary %}
+      <div class="schedule-single-row">
+        {% for session in sessions[1] %}
+          <div class="row">
+            <div class="col-md-2"><p class="red medium">{{ session.time }}</p></div>
+            <div class="col-md-10">
+              <p class="medium lang en">{{ session.title_en }}</p>
+              <p class="medium lang ja">{{ session.title_ja }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  {% else %}
+    <div class="container">
+      <div class="row">
+        {% for session in ary.first[1] %}
+          <div class="schedule-title-row col mr-2">
+            <p class="medium lang en" style="float:left">{{ session.room_name_en }}</p>
+            <p class="medium lang ja" style="float:left">{{ session.room_name_ja }}</p>
+            <!-- <div class="tag" style="float:right">Title</div> -->
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% for sessions in ary %}
+      <div class="schedule-time-row">
+        <div class="row">
+          <div class="col-md-12"><p class="red medium">{{ sessions[0] }}</p></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          {% for session in sessions[1] %}
+            <div class="schedule-split-row col mr-2">
+              <div style="float:left">
+                {% if session.speaker %}
+                  <a href="/speakers/{{ session.speaker.id }}/">
+                {% endif %}
+                <p class="medium lang en">{{ session.title_en }}</p>
+                <p class="medium lang ja">{{ session.title_ja }}</p>
+                {% if session.speaker %}
+                  </a>
+                {% endif %}
+                {% if session.speaker %}
+                  <p class="lang en">{{ session.speaker.name_en }}, {{ session.speaker.company_en }}</p>
+                  <p class="lang ja">{{ session.speaker.name_ja }}, {{ session.speaker.company_ja }}</p>
+                {% endif %}
+              </div>
+              <div class="profile-image" style="float:right">
+                <picture>
+                  <source loading="lazy" type="image/webp" srcset="/assets/img/speakers/{{session.speaker.id}}.webp" />
+                  <img loading="lazy" src="/assets/img/speakers/{{session.speaker.id}}.jpg" alt="{{ session.speaker.name_en }}">
+                </picture>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endfor %}

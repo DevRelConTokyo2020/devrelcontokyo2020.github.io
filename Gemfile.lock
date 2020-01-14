@@ -34,7 +34,6 @@ GEM
       sinatra-contrib (~> 1.4)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-pwa-plugin (2.2.3)
     jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -97,7 +96,6 @@ DEPENDENCIES
   jekyll (~> 3.8.6)
   jekyll-admin
   jekyll-feed (~> 0.6)
-  jekyll-pwa-plugin
   jekyll-regex-replace
   minima (~> 2.0)
   tzinfo (~> 1.2)
