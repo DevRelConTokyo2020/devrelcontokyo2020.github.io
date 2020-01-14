@@ -24,8 +24,18 @@
             </a>
           {% endif %}
           {% if session.speaker %}
-            <p class="lang en">{{ session.speaker.name_en }}, {{ session.speaker.company_en }}</p>
-            <p class="lang ja">{{ session.speaker.name_ja }}, {{ session.speaker.company_ja }}</p>
+            <p class="lang en">
+              {{ session.speaker.name_en }}, {{ session.speaker.company_en }}
+              {% if session.speaker2 %}
+                & {{ session.speaker2.name_en }}, {{ session.speaker.company_en }}
+              {% endif %}
+            </p>
+            <p class="lang ja">
+              {{ session.speaker.name_ja }}, {{ session.speaker.company_ja }}
+              {% if session.speaker2 %}
+                & {{ session.speaker2.name_ja }}, {{ session.speaker.company_ja }}
+              {% endif %}
+            </p>
           {% endif %}
         </div>
         <div class="col-md-3 d-flex justify-content-end">
@@ -35,6 +45,14 @@
               <img loading="lazy" src="/assets/img/speakers/{{session.speaker.id}}.jpg" alt="{{ session.speaker.name_en }}">
             </picture>
           </div>
+          {% if session.speaker2 %}
+            <div class="profile-image">
+              <picture>
+                <source loading="lazy" type="image/webp" srcset="/assets/img/speakers/{{session.speaker2.id}}.webp" />
+                <img loading="lazy" src="/assets/img/speakers/{{session.speaker2.id}}.jpg" alt="{{ session.speaker2.name_en }}">
+              </picture>
+            </div>
+          {% endif %}
         </div>
       </div>
       <hr>
