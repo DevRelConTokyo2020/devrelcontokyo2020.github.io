@@ -11,6 +11,17 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0c1f67.png?alt=media"
   },
   {
+    "id": "microsoft",
+    "type": "Gold",
+    "name_ja": "Microsoft",
+    "name_en": "Microsoft",
+    "url_ja": "https://azure.microsoft.com/",
+    "url_en": "https://azure.microsoft.com/",
+    "size": "6",
+    "show": "true",
+    "image": "/assets/img/sponsors/microsoft.png"
+  },
+  {
     "id": "yahoo",
     "type": "Venue",
     "name_ja": "Yahoo! JAPAN",
@@ -42,5 +53,27 @@
     "size": "2",
     "show": "true",
     "image": "/assets/img/sponsors/nexmo.png"
+  },
+  {
+    "id": "codezine",
+    "type": "Media",
+    "name_ja": "CodeZine",
+    "name_en": "CodeZine",
+    "url_ja": "https://codezine.jp",
+    "url_en": "https://codezine.jp",
+    "size": "2",
+    "show": "true",
+    "image": "/assets/img/sponsors/codezine.png"
+  },
+  {
+    "id": "oreilly",
+    "type": "Media",
+    "name_ja": "O'Reilly",
+    "name_en": "O'Reilly",
+    "url_ja": "https://www.oreilly.co.jp/",
+    "url_en": "https://www.oreilly.co.jp/",
+    "size": "2",
+    "show": "true",
+    "image": "/assets/img/sponsors/oreilly.png"
   }
 ]
