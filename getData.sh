@@ -7,3 +7,4 @@ curl -L "https://script.google.com/macros/s/AKfycbyp9nZL06tzl3rJ7rstfJR06uG25s_z
 sh image.sh
 ruby speaker.rb
 ruby organizer.rb
+ruby session.rb
