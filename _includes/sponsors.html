@@ -26,7 +26,7 @@
     <div class="row">
       {% assign sponsors = site.data.sponsors | where: "show", "true" %}
       {% for sponsor in sponsors %}
-        <div class="col-md-3 sponsor">
+        <div class="col-md-{{ sponsor.size }} sponsor">
           <div class="lang en">
             <a href="{{ sponsor.url_en }}">
               <picture>

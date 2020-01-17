@@ -6,7 +6,7 @@
     "name_en": "IBM",
     "url_ja": "http://developer.ibm.com/jp/",
     "url_en": "http://developer.ibm.com",
-    "size": "6",
+    "size": "4",
     "show": "true",
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0c1f67.png?alt=media"
   },
@@ -17,7 +17,7 @@
     "name_en": "Microsoft",
     "url_ja": "https://azure.microsoft.com/",
     "url_en": "https://azure.microsoft.com/",
-    "size": "6",
+    "size": "4",
     "show": "true",
     "image": "/assets/img/sponsors/microsoft.png"
   },
@@ -28,9 +28,20 @@
     "name_en": "Yahoo! JAPAN",
     "url_ja": "https://www.yahoo.co.jp",
     "url_en": "https://www.yahoo.co.jp",
-    "size": "6",
+    "size": "4",
     "show": "true",
     "image": "/assets/img/sponsors/yahoo.png"
+  },
+  {
+    "id": "mackerel",
+    "type": "Booth",
+    "name_ja": "Mackerel",
+    "name_en": "Mackerel",
+    "url_ja": "https://mackerel.io/",
+    "url_en": "https://mackerel.io/",
+    "size": "3",
+    "show": "true",
+    "image": "/assets/img/sponsors/mackerel.png"
   },
   {
     "id": "val",
