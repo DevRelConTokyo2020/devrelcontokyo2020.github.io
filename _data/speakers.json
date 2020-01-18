@@ -26,7 +26,7 @@
   },
   {
     "name_en": "Timothy Fong",
-    "id": "timfong888",
+    "id": "timothy",
     "name_ja": "Timothy Fong",
     "company_en": "The Linux Foundation",
     "company_ja": "The Linux Foundation",
@@ -44,7 +44,7 @@
     "instagram": "",
     "stackoverflow": "",
     "twitch": "",
-    "speaker": "false",
+    "speaker": "true",
     "First session=sessions:id": "2802",
     "Second session=sessions:id": "",
     "image": ""
