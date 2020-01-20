@@ -78,9 +78,9 @@
     "room": "Track 4",
     "room_name_en": "👁🐝M",
     "room_name_ja": "👁🐝M",
-    "show": "false",
-    "speakerName": "timfong888@gmail.com",
-    "First speaker=speakers:name_en": "timfong888@gmail.com",
+    "show": "true",
+    "speakerName": "Timothy Fong",
+    "First speaker=speakers:name_en": "Timothy Fong",
     "Second speaker=speakers:name_en": ""
   },
   {
@@ -456,7 +456,7 @@
     "room": "Track 3",
     "room_name_en": "🏯 Samura",
     "room_name_ja": "🏯 侍",
-    "show": "false",
+    "show": "true",
     "speakerName": "Isaac Z. To",
     "First speaker=speakers:name_en": "Isaac Z. To",
     "Second speaker=speakers:name_en": ""
@@ -750,7 +750,7 @@
     "room": "Track 1",
     "room_name_en": "🗻Fuji",
     "room_name_ja": "🗻 富士",
-    "show": "false",
+    "show": "true",
     "speakerName": "Mx. Kas Perch",
     "First speaker=speakers:name_en": "Mx. Kas Perch",
     "Second speaker=speakers:name_en": ""

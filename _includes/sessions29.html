@@ -78,14 +78,16 @@
               </div>
             {% else %}
               {% if forloop.index == 3 %}<div class="schedule-split-row col mr-2">{% endif %}
-                <div style="float:left">
-                  {% include session_item.html session=session %}
-                </div>
-                {% if session.show == 'true' %}
-                  <div class="profile-image" style="float:right">
-                    {% include session_picture.html session=session %}
+                <div class="row">
+                  <div style="float:left">
+                    {% include session_item.html session=session %}
                   </div>
-                {% endif %}
+                  {% if session.show == 'true' %}
+                    <div class="profile-image" style="float:right">
+                      {% include session_picture.html session=session %}
+                    </div>
+                  {% endif %}
+                </div>
               {% if forloop.index == 4 %}</div>{% endif %}
             {% endif %}
           {% endfor %}
