@@ -55,6 +55,17 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0a1416.png?alt=media"
   },
   {
+    "id": "linux",
+    "type": "Silver",
+    "name_ja": "The Linux Foundation",
+    "name_en": "The Linux Foundation",
+    "url_ja": "https://www.linuxfoundation.jp/",
+    "url_en": "https://www.linuxfoundation.jp/",
+    "size": "3",
+    "show": "true",
+    "image": "/assets/img/sponsors/linux.png"
+  },
+  {
     "id": "nexmo",
     "type": "Bronze",
     "name_ja": "Nexmo",
