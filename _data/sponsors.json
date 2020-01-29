@@ -66,6 +66,17 @@
     "image": "/assets/img/sponsors/linux.png"
   },
   {
+    "id": "grapecity",
+    "type": "Silver",
+    "name_ja": "GrapeCity",
+    "name_en": "GrapeCity",
+    "url_ja": "https://www.grapecity.co.jp/developer/",
+    "url_en": "https://www.grapecity.co.jp/developer/",
+    "size": "3",
+    "show": "true",
+    "image": "/assets//img/sponsors/grapecity.png"
+  },
+  {
     "id": "nexmo",
     "type": "Bronze",
     "name_ja": "Nexmo",
