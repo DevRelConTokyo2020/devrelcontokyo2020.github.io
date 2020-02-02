@@ -340,5 +340,23 @@
     "company_en": "Twilio Japan",
     "company_ja": "Twilio Japan",
     "image": ""
-  }
+  },
+  {
+    "id": "massie",
+    "type": "member",
+    "name_en": "Masa Tanaka",
+    "name_ja": "田中 正裕",
+    "title_en": "CEO",
+    "title_ja": "CEO",
+    "url": "https://www.asial.co.jp/",
+    "twitter": "https://twitter.com/massie",
+    "github": "https://github.com/masahirotanaka",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/masahirotanaka/",
+    "profile_en": "",
+    "profile_ja": "",
+    "company_en": "Asial",
+    "company_ja": "Asial",
+    "image": "https://s3.amazonaws.com/media-p.slid.es/uploads/730255/images/3931555/Picture1.png"
+  },
 ]
