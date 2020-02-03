@@ -359,4 +359,22 @@
     "company_ja": "Asial",
     "image": "https://s3.amazonaws.com/media-p.slid.es/uploads/730255/images/3931555/Picture1.png"
   },
+  {
+    "id": "mushtaq96",
+    "type": "member",
+    "name_en": "Mushtaq",
+    "name_ja": "ムシュタク",
+    "title_en": "Software Developer ",
+    "title_ja": "ソフトウェアデベロッパー",
+    "url": "https://www.zenken.co.jp/",
+    "twitter": "https://www.linkedin.com/in/mushtaq96/",
+    "github": "https://github.com/mushtaq96",
+    "facebook": "",
+    "linkedin": "",
+    "profile_en": "",
+    "profile_ja": "",
+    "company_en": "",
+    "company_ja": "",
+    "image": ""
+  }
 ]
