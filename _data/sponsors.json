@@ -55,6 +55,17 @@
     "image": "https://firebasestorage.googleapis.com/v0/b/glide-prod.appspot.com/o/img-uploads%2FvanGWPTcf46D78CUIQ51%2F0a1416.png?alt=media"
   },
   {
+    "id": "twilio",
+    "type": "Speech",
+    "name_ja": "Twilio",
+    "name_en": "Twilio",
+    "url_ja": "https://www.twilio.com/ja/",
+    "url_en": "https://www.twilio.com/ja/",
+    "size": "3",
+    "show": "true",
+    "image": "/assets/img/sponsors/twilio.png"
+  },
+  {
     "id": "linux",
     "type": "Silver",
     "name_ja": "The Linux Foundation",
