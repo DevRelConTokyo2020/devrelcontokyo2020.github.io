@@ -149,13 +149,13 @@
   {
     "id": "2807",
     "date": "2801",
-    "title_en": "A data based approach to setting up your DevRel program in a new region",
-    "title_ja": "新たな地域でDevRelプログラムを構築するデータに基づいたアプローチ",
+    "title_en": "Using DevRel for brand building",
+    "title_ja": "DevRelをブランド構築に活かす",
     "image": "",
-    "description_en": "I've spent a good deal of time using a data based approach to setting up our DevRel program in APAC. I'm going to tell you all about the data we looked at to create our research strategy, the strategy we used and the outcomes of it six months later.\n\nWe'll look at content analytics, metrics from past events, having boot(h)s on the ground and increasing your product's awareness in a region you don't speak the language.",
-    "description_ja": "アジア太平洋地域では、DevRelプログラムを構築するのにデータに基づくアプローチに多くの時間を費やしました。私たちの研究戦略を生み出すのに使ったデータ、私たちが用いた戦略と6ヵ月後の成果について全てお話します。\n\n私たちは、地に足（ブース）を着け、現地語を話せない地域で製品の認知度を上げつつ、コンテント・アナリティクス、過去のイベントからのメトリックスを見ることになります。",
-    "category_en": "Analyse",
-    "category_ja": "分析",
+    "description_en": "One of DevRel's objectives is to raise awareness and gain mind share. To gain mindshare is equal to build a brand, and it calls branding.\n\nIn this session, we will introduce the basic concept of branding, how to assemble a story to be told, and how the organizational structure should be.\n\n■ What is a brand?\n\nBrand value consists of the following three values.\n\n-Values of Product\n-Value of content\n-Value of relations\n\n\"\"Value of product\"\" is the value of your service or product, \"\"Value of content\"\" is the value from recognition to purchase, \"\"Value of relation\"\"  is the value from purchase to experience. Even if product offering value alone cannot differentiate, you can build and differentiate your brand based on content offering value and relation offering value. We can use the branding concept in DevRel. By strengthening content and relationships, we can build a strong brand for developers.\n\n■ Brand effect\n\nBrand building has the following two effects.\n\n-Reduce new acquisition costs\n-Improvement of LTV for existing users\n\nThis is directly related to revenue.\n\n■ How to start branding\n\nBranding can be made company-wide or on a service-by-service basis.\n\n1. Selection of standing position\n2. Persona selection, needs and seeds extraction\n3. Build a brand story\n4. Compose message\n\nThis message must contain the following elements:\n\n1. Consistency with Persona\n2. Consistency with brand story\n3. Consistency with brand personality",
+    "description_ja": "DevRelの大きな目的の一つに認知度の向上とマインドシェアの獲得が挙げられます。マインドシェアを獲得するということは、ブランドの構築と同義です。\n\nこのセッションではブランディングの基礎知識と、どのように構築するかを解説します。\n\n■ ブランドとは何か？\n\nブランド力は3つの要素で構成されます。\n\n- 製品提供価値\n- コンテンツ提供価値\n- リレーション提供価値\n\n製品力とは、あなたのサービスや製品の持つ価値です。コンテンツ力は製品の認知から購入までの価値、そしてリレーション力は購入から体験までの価値となります。製品提供価値だけで差別化が難しい場合でも、コンテンツ提供価値とリレーション提供価値によって差別化が可能です。この二つはDevRelでも重視されるものです。コンテンツ、そしてリレーション提供価値を強化することで、開発者向けの強力なブランドを構築できます。\n\n■ ブランドによる効果\n\nブランドが構築できると、次の二点にメリットがあります。\n\n- 新規ユーザ獲得コストの低減\n- 既存ユーザのLTV(生涯価値）の改善\n\nこれらは収益に直接関係するでしょう。\n\n■ ブランディングの始め方\n\nブランディングは企業全体、またはサービス単位で構築できます。\n\n1. 自分たちのポジショニングを確定させる\n2. ペルソナの選定、ニーズ、シーズの抽出\n3. ブランドストーリーを構築する\n4. メッセージを作成する\n\nこのメッセージには次の要素が含まれていなければなりません。\n\n1. ペルソナとの一貫性\n2. ブランドストーリーとの一貫性\n3. ブランドの個性との一貫性",
+    "category_en": "Strategy",
+    "category_ja": "戦略",
     "day": "28",
     "block": "",
     "time": "15:30",
@@ -163,9 +163,9 @@
     "room_name_en": "👁🐝M",
     "room_name_ja": "👁🐝M",
     "show": "true",
-    "speakerName": "Alex Lakatos",
-    "First speaker=speakers:name_en": "Alex Lakatos",
-    "Second speaker=speakers:name_en": "Chen Hui Jing"
+    "speakerName": "Atsushi Nakatsugawa",
+    "First speaker=speakers:name_en": "Atsushi Nakatsugawa",
+    "Second speaker=speakers:name_en": ""
   },
   {
     "id": "2809",

@@ -66,6 +66,17 @@
     "image": "/assets/img/sponsors/twilio.png"
   },
   {
+    "id": "google",
+    "type": "Diversity",
+    "name_ja": "Google",
+    "name_en": "Google",
+    "url_ja": "https://opensource.google",
+    "url_en": "https://opensource.google",
+    "size": "3",
+    "show": "true",
+    "image": "/assets/img/sponsors/google.png"
+  },
+  {
     "id": "linux",
     "type": "Silver",
     "name_ja": "The Linux Foundation",
