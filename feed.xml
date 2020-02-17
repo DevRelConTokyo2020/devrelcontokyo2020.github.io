@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-14T11:47:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">コロナウィルス対策について</title><link href="http://localhost:4000/information/2020/02/14/coronavirus.html" rel="alternate" type="text/html" title="コロナウィルス対策について" /><published>2020-02-14T00:00:00+09:00</published><updated>2020-02-14T00:00:00+09:00</updated><id>http://localhost:4000/information/2020/02/14/coronavirus</id><content type="html" xml:base="http://localhost:4000/information/2020/02/14/coronavirus.html">&lt;p&gt;皆さん、こんにちは。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-17T18:37:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">コロナウィルス対策について</title><link href="http://localhost:4000/information/2020/02/14/coronavirus.html" rel="alternate" type="text/html" title="コロナウィルス対策について" /><published>2020-02-14T00:00:00+09:00</published><updated>2020-02-14T00:00:00+09:00</updated><id>http://localhost:4000/information/2020/02/14/coronavirus</id><content type="html" xml:base="http://localhost:4000/information/2020/02/14/coronavirus.html">&lt;p&gt;皆さん、こんにちは。&lt;/p&gt;
 
 &lt;p&gt;現在、カンファレンス開催に向けて全力で取り組んでいます。月末が待ちきれません！しかし、皆さんご存じの通り、コロナウィルスが広まっています。日本でも現在30人の感染者おり（内24人は中国からの帰国者）、治療を受けています。1名の方は亡くなっています。&lt;/p&gt;
 
@@ -43,7 +43,47 @@ However lately APAC has a problem of Coronavirus. In Japan, patiants are limited
 
 &lt;p&gt;I belive your helth.&lt;/p&gt;
 
-&lt;p&gt;Atsushi, organizer of DevRelCon Tokyo.&lt;/p&gt;</content><author><name></name></author><category term="information" /><summary type="html">Hi all,</summary></entry><entry><title type="html">Announcement for the hosting of DevRelCon Tokyo 2020</title><link href="http://localhost:4000/information/2019/10/06/devrelcon-tokyo-is-back-en.html" rel="alternate" type="text/html" title="Announcement for the hosting of DevRelCon Tokyo 2020" /><published>2019-10-06T16:00:00+09:00</published><updated>2019-10-06T16:00:00+09:00</updated><id>http://localhost:4000/information/2019/10/06/devrelcon-tokyo-is-back-en</id><content type="html" xml:base="http://localhost:4000/information/2019/10/06/devrelcon-tokyo-is-back-en.html">&lt;p&gt;DevRelCon Tokyo 2020 is back! Last year in 2019, over 150 people from around the world participated at DevRelCon Tokyo 2019, but we will expand its scale even further. Here is a summary of some new endeavors at DevRelCon Tokyo 2020 this time around.&lt;/p&gt;
+&lt;p&gt;Atsushi, organizer of DevRelCon Tokyo.&lt;/p&gt;</content><author><name></name></author><category term="information" /><summary type="html">Hi all,</summary></entry><entry><title type="html">DevRelCon Tokyo 2020中止のお知らせ</title><link href="http://localhost:4000/information/2020/02/14/devrelcon-tokyo-has-canceled.html" rel="alternate" type="text/html" title="DevRelCon Tokyo 2020中止のお知らせ" /><published>2020-02-14T00:00:00+09:00</published><updated>2020-02-14T00:00:00+09:00</updated><id>http://localhost:4000/information/2020/02/14/devrelcon-tokyo-has-canceled</id><content type="html" xml:base="http://localhost:4000/information/2020/02/14/devrelcon-tokyo-has-canceled.html">&lt;p&gt;DevRelCon Tokyoは国内外から多数の方が参加されるグローバルなカンファレンスです。今年に入ってから、日本におけるコロナウイルスの状況について心配する連絡を多数受けていました。企業によっては日本を含むAPACへの出張を取りやめる企業も出始めています。&lt;/p&gt;
+
+&lt;p&gt;日本と中国の状況は異なり、アジアという枠で一括りにしないで欲しいとは常々連絡していました。また、クルーズ船は国内とはまったく異なる状態であるとも説明してきました。日本におけるコロナウイルスは政府のコントロール下にあり、重病者もほとんどいませんでした。&lt;/p&gt;
+
+&lt;p&gt;その状況が変わりはじめたのが先週くらいからです。国内ではじめて亡くなられた方がいると発表され、日々感染者も増えています。大規模イベントの自粛要請もはじまっています。&lt;/p&gt;
+
+&lt;p&gt;DevRelCon Tokyoは年一回のカンファレンスであり、国内にいながらグローバルなカンファレンスの雰囲気を味わえる唯一無二の機会となっています。DevRelCon Tokyoに参加する参加者、スピーカー、スポンサー、そして運営メンバー全員がカンファレンスを心の底から楽しいと感じ、DevRelの可能性を強く感じてもらうのが第一の目的です。現状のようなコロナウイルスに怯えながら、マスクや消毒液を常に気にするような中では楽しむことなど不可能でしょう。&lt;/p&gt;
+
+&lt;p&gt;また、DevRelCon Tokyoは予算の関係もあり、IBMさんやYahoo! Japanさんの場所を借りて実施される予定でした。もしカンファレンスを強行して、DevRelCon Tokyoがコロナウイルスを広げるきっかけになるというのは、会場を貸してくださる企業のブランディングにも傷を付けることになります。快く貸してくださっている企業に対して、そうした行為はとてもできません。&lt;/p&gt;
+
+&lt;p&gt;そういった事情を踏まえた上で、メインの主催者である私（中津川篤司）の独断により、DevRelCon Tokyo 2020の中止を決定しました。全責任は私にありますので、何かあれば &lt;a href=&quot;atsushi@moongift.jp&quot;&gt;atsushi@moongift.jp&lt;/a&gt; までご連絡ください。&lt;/p&gt;
+
+&lt;p&gt;なお、DevRelCon Tokyo 2020は私の中では死んではおりません。コロナウイルスの状況が不透明な中、確実なことを書くのは難しいのですが、2020年秋ごろ（オリンピック、パラリンピックが終わってから）を目安に、再度行えるように企画中です。こちらは詳しい状況が決まり次第、当サイト上やソーシャルアカウントを通じて発表します。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/devrelcontokyo&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/DevrelConTokyo/&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;何よりDevRelCon Tokyoを楽しみにしていただいた方々を裏切る形になってしまったことが残念でなりません。半年後、今回の決定が間違っていなかったこと、そういうこともあったよねと語れる状態になっていることを期待します。&lt;/p&gt;
+
+&lt;p&gt;中津川篤司@DevRelCon Tokyo 2020主催者&lt;/p&gt;</content><author><name></name></author><category term="information" /><summary type="html">DevRelCon Tokyoは国内外から多数の方が参加されるグローバルなカンファレンスです。今年に入ってから、日本におけるコロナウイルスの状況について心配する連絡を多数受けていました。企業によっては日本を含むAPACへの出張を取りやめる企業も出始めています。</summary></entry><entry><title type="html">DevRelCon Tokyo has been canceled</title><link href="http://localhost:4000/information/2020/02/14/devrelcon-tokyo-has-canceled_en.html" rel="alternate" type="text/html" title="DevRelCon Tokyo has been canceled" /><published>2020-02-14T00:00:00+09:00</published><updated>2020-02-14T00:00:00+09:00</updated><id>http://localhost:4000/information/2020/02/14/devrelcon-tokyo-has-canceled_en</id><content type="html" xml:base="http://localhost:4000/information/2020/02/14/devrelcon-tokyo-has-canceled_en.html">&lt;p&gt;DevRelCon Tokyo is a global conference attended by many people from Japan and overseas. Earlier this year, We had many contacts to worry about the situation of coronavirus in Japan. Some companies have begun to cancel their business trips to APAC including Japan.&lt;/p&gt;
+
+&lt;p&gt;I always said, the situation in Japan and China was different. And I also explained that cruise ships are in a completely different state than in Japan. The coronavirus in Japan was under government control and few were seriously ill condition.&lt;/p&gt;
+
+&lt;p&gt;The situation began to change about last week. It has been announced that some people have died for the first time in Japan, and the number of infected people is increasing every day. Requests for self-restraint of large-scale events have also begun.&lt;/p&gt;
+
+&lt;p&gt;DevRelCon Tokyo is an annual conference, providing a unique opportunity to experience the atmosphere of a global conference while staying in Japan. The primary goal is to make sure that all participants, speakers, sponsors, and the operating members of DevRelCon Tokyo enjoy the conference from the bottom of their hearts and feel the potential of DevRel. It would be impossible to enjoy it if audiences are always put on a mask and disinfectant,  and being afraid of the current coronavirus.&lt;/p&gt;
+
+&lt;p&gt;Based on such circumstances, I (Atsushi) decided to cancel DevRelCon Tokyo 2020. I have full responsibility, so if you have any questions, please contact &lt;a href=&quot;atsushi@moongift.jp&quot;&gt;atsushi@moongift.jp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;DevRelCon Tokyo 2020 is not dead in me. While the situation of coronavirus is uncertain, it is difficult to write certainty. However we are planning to do it again around fall 2020 (after the Olympics and Paralympics). This will be announced on this site and through a social account as soon as details are determined.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/devrelcontokyo&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/DevrelConTokyo/&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Above all, it’s a shame that we have betrayed those who enjoyed DevRelCon Tokyo. Six months later, I hope that this decision was not wrong.&lt;/p&gt;
+
+&lt;p&gt;Atsushi@DevRelCon Tokyo 2020 Organizer&lt;/p&gt;</content><author><name></name></author><category term="information" /><summary type="html">DevRelCon Tokyo is a global conference attended by many people from Japan and overseas. Earlier this year, We had many contacts to worry about the situation of coronavirus in Japan. Some companies have begun to cancel their business trips to APAC including Japan.</summary></entry><entry><title type="html">Announcement for the hosting of DevRelCon Tokyo 2020</title><link href="http://localhost:4000/information/2019/10/06/devrelcon-tokyo-is-back-en.html" rel="alternate" type="text/html" title="Announcement for the hosting of DevRelCon Tokyo 2020" /><published>2019-10-06T16:00:00+09:00</published><updated>2019-10-06T16:00:00+09:00</updated><id>http://localhost:4000/information/2019/10/06/devrelcon-tokyo-is-back-en</id><content type="html" xml:base="http://localhost:4000/information/2019/10/06/devrelcon-tokyo-is-back-en.html">&lt;p&gt;DevRelCon Tokyo 2020 is back! Last year in 2019, over 150 people from around the world participated at DevRelCon Tokyo 2019, but we will expand its scale even further. Here is a summary of some new endeavors at DevRelCon Tokyo 2020 this time around.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
